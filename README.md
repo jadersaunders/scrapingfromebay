@@ -9,7 +9,7 @@ In order to run the python file and generate json files, use the following comma
 $ python3 ebay-dl.py 'ant traps' 
 ```
 
-The key term 'ant trap' is interchangeable with any search item.  I also downloaded files with the search items 'speaker' and 'goggles'.  Note that the search item must be placed in quotations if there is a space between words.  The program is set to download 10 pages if no page count is specified, but if more/fewer pages of code are being downloaded, the command can be adjusted as follows (8 pages would be printed based on the code below): 
+The key term 'ant trap' is interchangeable with any search term.  I also downloaded files with the search terms 'speaker' and 'goggles'.  Note that the search term must be placed in quotations if there is a space between words.  The program is set to download 10 pages if no page count is specified, but if more/fewer pages of code are being downloaded, the command can be adjusted as follows (8 pages would be printed based on the code below): 
 
 ```
 $ python3 ebay-dl.py 'ant traps' --num_pages=8 
